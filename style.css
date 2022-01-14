@@ -27,29 +27,40 @@ body {
 
 .hero {
   display: flex;
+  justify-content: space-between;
   background-color: #1f2937;
-  padding: 20px 15% 8%;
+  padding: 20px 15% 8% 15%;
   margin: 0px;
-  flex: 1;
 }
 
 .heroLeft {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0px 10px;
+  padding: 0 50px 0 0;
 }
 
 .heroMain {
+  /* display: flex; */
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
 }
 
 .heroSecondary {
+  /* display: flex; */
   font-size: 18px;
   font-weight: 300;
   color: #e5e7eb;
   padding: 10px 0px;
+}
+
+.heroButton {
+  /* display: flex; */
+}
+
+.heroRight {
+  padding: 0 0 0 50px;
 }
 
 .info {
